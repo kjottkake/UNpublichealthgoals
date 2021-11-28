@@ -1,0 +1,18 @@
+/* importing roboto from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
