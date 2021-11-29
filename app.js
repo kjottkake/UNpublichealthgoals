@@ -1,9 +1,5 @@
 let day = 0;
-let challenges = ["Do 30 pushups today.", "Walk for 35 minutes today.", "Do morning yoga." ]
-
-// types: social, active, nutrition, knowledge
-
-
+// types: social, active, nutrition, community
 let missions = [
     {
         "type": "active",
@@ -13,12 +9,22 @@ let missions = [
     {
         "type": "active",
         "name": "walk",
-        "challenge": "Walk for 30 minutes"
+        "challenge": "Walk for 30 minutes."
     },
     {
         "type": "active",
         "name": "yoga",
-        "challenge": "Do yoga for 35 minutes"
+        "challenge": "Do yoga for 35 minutes."
+    },
+    {
+        "type": "active",
+        "name": "ball",
+        "challenge": "Play a ball game for 30 minutes."
+    },
+    {
+        "type": "nutrition",
+        "name": "fruits",
+        "challenge": "Eat 2 fruits today."
     },
     {
         "type": "social",
@@ -38,7 +44,7 @@ let walk = () => {
 }
 
 let getTask = () => {
-    max = challenges.length + 1;
+    max = missions.length;
     let num = Math.floor(Math.random() * max);
     console.log(num)
     document.getElementById("task").innerHTML = missions[num].challenge;
