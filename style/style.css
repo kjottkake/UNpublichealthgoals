@@ -10,6 +10,7 @@ body {
 
 
 
+
 nav {
     float: right;
     padding-right: 5%;
@@ -69,16 +70,26 @@ section {
 }
 
 h2 {
+    font-weight: 300;
     padding-top: 3%;
     padding-bottom: 2%;
 }
 
 p {
     padding-bottom: 25px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.8;
 }
 
 .cta {
     background-color: blanchedalmond;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 5%;
 }
+
+.cta p {
+    width: 45%;
+}
+
