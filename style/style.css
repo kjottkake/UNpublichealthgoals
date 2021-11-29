@@ -1,19 +1,19 @@
 /* importing roboto from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+/* all elements */
 body {
     font-family: 'Roboto', sans-serif;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-#title {
-    width: 80%;
-    margin: auto;
-}
 
 nav {
     float: right;
     padding-right: 5%;
 }
+
 
 a {
     text-decoration: none;
@@ -32,8 +32,19 @@ h1 {
     padding-bottom: 5%;
 }
 
+/* index */
+#title {
+    width: 80%;
+    margin: auto;
+}
+
+img {
+    margin: none;
+}
+
+
 .cta {
     background-color: blanchedalmond;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
