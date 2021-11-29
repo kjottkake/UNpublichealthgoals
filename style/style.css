@@ -10,15 +10,20 @@ body {
     margin: auto;
 }
 
+nav {
+    float: right;
+    padding-right: 5%;
+}
+
 a {
     text-decoration: none;
     color: black;
     padding: 26px;
-    /* padding-bottom: 2px; */
+    padding-bottom: 4px;
 }
 
 a.active {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 h1 {
     font-size: 4rem;
