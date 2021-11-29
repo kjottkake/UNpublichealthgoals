@@ -97,7 +97,7 @@ p {
 }
 
 .cta {
-    background-color: blanchedalmond;
+    background-color: #ffc048;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -107,3 +107,6 @@ p {
     width: 45%;
 }
 
+#game {
+    background-color: cadetblue;
+}
