@@ -40,11 +40,32 @@ h1 {
 }
 
 footer {
-    padding-top: 5%;
+    /* padding-top: 5%;
     padding-left: 5%;
-    width: 100%;
+    width: 100%; */
     background-color: #d2dae2;
+    display: grid;
+    grid-template-columns: 100px 45% auto 45% 100px;
+    grid-template-rows: 5% auto 5%;
     /* color: #fff; */
+}
+
+.contact {
+  background-color: pink;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+}
+
+.contact2 {
+    background-color: plum;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
 }
 
 .message {
