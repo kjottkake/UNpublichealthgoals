@@ -288,3 +288,27 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
+@media (max-width: 600px){
+    footer {
+        grid-template-columns: 12px auto 12px; 
+        grid-template-rows: 200px auto 5%;
+    }
+
+    .contact {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .map {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+
+}
