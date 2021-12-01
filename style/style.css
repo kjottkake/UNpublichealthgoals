@@ -38,19 +38,14 @@ h1 {
 }
 
 footer {
-    /* padding-top: 5%;
-    padding-left: 5%;
-    width: 100%; */
     padding-bottom: 2%;
     background-color: #d2dae2;
     display: grid;
     grid-template-columns: 100px 15% auto 45% 100px;
     grid-template-rows: 5% auto 5%;
-    /* color: #fff; */
 }
 
 .contact {
-  /* background-color: pink; */
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -59,7 +54,6 @@ footer {
 }
 
 .map {
-    /* background-color: plum; */
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
@@ -106,8 +100,6 @@ footer {
 
 .bg {
     background-image: url("https://images.unsplash.com/photo-1556118308-4661571b670e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
-    /* background-image: url("../media/background.jpeg"); */
-    /* border: 12px solid pink; */
     padding-top: 20%;
     padding-bottom: 20%;
 
@@ -170,19 +162,16 @@ p {
 }
 
 .step1 {
-    /* background-color: pink; */
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 .step1-content {
-    /* background-color: paleturquoise; */
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-    /* background-color: pink;s */
     padding-top: 25%;
 }
 
@@ -198,7 +187,6 @@ p {
 
 
 .step2 {
-    /* background-color: plum; */
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -238,7 +226,6 @@ p {
 
 .challenge-element {
     font-size: larger;
-    /* background-color: powderblue; */
     padding-top: 15%;
     padding-bottom: 15%;
     margin: 50px;
