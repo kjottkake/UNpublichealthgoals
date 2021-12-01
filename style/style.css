@@ -141,7 +141,9 @@ p {
 }
 
 .cta {
-    background-color: #ffc048;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(45deg, #D9AFD9 0%, #97D9E1 100%);
+
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
@@ -153,8 +155,93 @@ p {
 
 
 /* gamepage */
-#game {
-    background-color: cadetblue;
+.game {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    width: 100%;
+}
+
+.challenge {
+    display: grid;
+    grid-template-columns: 100px 45% 45% 100px;
+    grid-template-rows: 5% auto auto auto 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.step1 {
+    /* background-color: pink; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.step1-content {
+    /* background-color: paleturquoise; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: pink;s */
+    padding-top: 25%;
+}
+
+.step1-content p {
+    font-size: xx-large;
+    background-color: pink;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 35px;
+    font-weight: bold;
+}
+
+
+
+.step2 {
+    /* background-color: plum; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.step2-content img {
+    width: 70%;
+    border-radius: 3%;
+}
+
+.step2-content {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.step3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.step3-content {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.step3-content img {
+    width: 70%;
+    border-radius: 3%;
+}
+
+.challenge-element {
+    font-size: larger;
+    /* background-color: powderblue; */
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin: 50px;
 }
 
 .gamebutton {
@@ -179,11 +266,8 @@ p {
 }
 
         
-
-
-
 /* input page */
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -207,10 +291,10 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: cadetblue;
 }
 
-/* Add a background color and some padding around the form */
+/* Add a background color and padding around the form */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
