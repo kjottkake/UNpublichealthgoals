@@ -17,6 +17,7 @@ nav {
 
 img.logo {
     padding-top: 2%;
+    width: 100px;
 }
 
 a {
@@ -93,7 +94,7 @@ footer {
 
 
 /* index */
-#title {
+.title {
     width: 60%;
     padding-left: 5%;
 }
